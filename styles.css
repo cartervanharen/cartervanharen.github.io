@@ -1,0 +1,130 @@
+/* I miss stylex */
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 1rem;
+}
+
+.top-bar {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+.top-bar .menu-text {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.top-bar .menu a {
+    color: black;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.top-bar .menu a:hover {
+    background-color: #ddd;
+}
+
+.top-bar .menu a.active {
+    background-color: #007bff;
+    color: white;
+}
+
+
+.card {
+    background: white;
+    border: 1px solid #ccc;
+    margin: 1rem;
+    padding: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-section {
+    padding: 1rem;
+}
+
+
+.headshot {
+    width: 100%;
+    max-width: 25rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.project-image {
+    width: 100%;
+    height: 12.5rem;
+    object-fit: contain;
+    background-color: #f8f9fa;
+}
+
+.fun-image {
+    width: 100%;
+    height: 15rem;
+    object-fit: contain;
+    background-color: #f8f9fa;
+}
+
+
+h1 {
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    color: black;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.resume-item {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.resume-item:last-child {
+    border-bottom: none;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    margin-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
